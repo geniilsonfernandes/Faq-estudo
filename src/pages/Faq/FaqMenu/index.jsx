@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./styles.module.css";
-
-export const FaqMenu = () => {
+const FaqMenu = () => {
   return (
     <nav className={styles.menu}>
       <ul className={styles.menu__items}>
@@ -16,3 +15,5 @@ export const FaqMenu = () => {
     </nav>
   );
 };
+
+export default FaqMenu;

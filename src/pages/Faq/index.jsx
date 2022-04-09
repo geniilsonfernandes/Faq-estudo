@@ -1,6 +1,7 @@
 import React from "react";
-import { Container } from "../../components/Container";
-import { FaqMenu } from "./FaqMenu";
+import Container from "../../components/Container";
+import FaqAccordion from "./FaqAccordion";
+import FaqMenu from "./FaqMenu";
 import styles from "./styles.module.css";
 
 const Faq = () => {
@@ -8,6 +9,7 @@ const Faq = () => {
     <Container wrapper="main">
       <h1 className={styles.title}> Frequently Asked Questions </h1>
       <FaqMenu />
+      <FaqAccordion />
     </Container>
   );
 };
