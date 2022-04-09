@@ -1,0 +1,21 @@
+.menu {
+    max-width: 840px;
+    margin: 0 auto;
+}
+.menu__items {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.menu__item {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--color--text--secundary);
+}
+
+/* active states */
+
+[data-focus="true"] {
+    font-weight: 600;
+    color: var(--color--primary);
+}

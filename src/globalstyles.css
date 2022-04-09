@@ -6,8 +6,11 @@
 
 :root {
     --color--primary: #64c882;
+    --color--text--primary: #130502;
+    --color--text--secundary: #869289;
 }
 
 body {
     font-family: "Poppins", sans-serif;
+    padding-top: 112px;
 }
