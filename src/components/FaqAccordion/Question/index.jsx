@@ -12,6 +12,7 @@ const Question = () => {
     const titleHeight = title.current.clientHeight;
     setWrapperClosed(titleHeight + 48);
   }, []);
+  
   useEffect(() => {
     const answerHeight = answer.current.clientHeight;
     const titleHeight = title.current.clientHeight;

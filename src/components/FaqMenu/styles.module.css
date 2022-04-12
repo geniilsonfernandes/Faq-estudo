@@ -11,8 +11,11 @@
     font-weight: 400;
     font-size: 20px;
     color: var(--color--text--secundary);
+    cursor: pointer;
 }
-
+.menu__item:hover {
+    color: var(--color--primary);
+}
 /* active states */
 
 [data-focus="true"] {
