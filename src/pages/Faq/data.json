@@ -73,22 +73,22 @@
     "quenstios": [
       {
         "id": 0,
-        "ask": "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+        "ask": "vel illum qui dolorem eum fugiat quo voluptas nulla pariatur??",
         "answer": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
       },
       {
         "id": 1,
-        "ask": "consectetur adipiscing elit?",
+        "ask": "iste natus error sit voluptatem?",
         "answer": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. "
       },
       {
         "id": 2,
-        "ask": "exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?",
+        "ask": "Sed ut perspiciatis unde omnis iste natus error sit?",
         "answer": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. "
       },
       {
         "id": 3,
-        "ask": "Ut enim ad minima veniam, quis nostrum exercitationem?",
+        "ask": "unde omnis iste natus error sit voluptatem accusantium?",
         "answer": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. "
       }
     ]
