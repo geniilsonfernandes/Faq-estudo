@@ -2,13 +2,12 @@ import React from "react";
 import Question from "./Question";
 import styles from "./styles.module.css";
 
-const questions = [1, 2, 3, 4, 5];
-
-const FaqAccordion = () => {
+const FaqAccordion = ({ data }) => {
+  
   return (
     <div className={styles.wrapper}>
-      {questions.map((i) => (
-        <Question key={i} />
+      {data.map(({ ask, answer, id }) => (
+        <Question key={id} answer={answer} ask={ask} />
       ))}
     </div>
   );
