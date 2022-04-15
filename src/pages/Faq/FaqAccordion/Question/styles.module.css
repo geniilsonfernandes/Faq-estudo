@@ -11,6 +11,13 @@
 [data-wrapper-show="true"] {
     border: 1px solid var(--color--primary);
 }
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
 .question__title {
     font-size: 16px;
     font-weight: 400;
@@ -33,10 +40,7 @@
     background: var(--color--text--primary);
     height: 16px;
     width: 1px;
-    position: absolute;
-    right: 48px;
-    top: 24px;
-    transform: translateY(-50%);
+    position: relative;
     transition: all ease-in-out 200ms;
 }
 .icon::after {
@@ -48,7 +52,7 @@
     transform: rotate(90deg);
 }
 [data-icon-close="true"] {
-    transform: translateY(-50%) rotate(90deg);
+    transform: rotate(90deg);
     background: var(--color--primary);
 }
 [data-icon-close="true"]::after {

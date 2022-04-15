@@ -18,10 +18,12 @@ const Question = ({ answer, ask }) => {
       onClick={(e) => handleClick(e)}
       data-wrapper-show={showAnswer}
     >
-      <h2 className={styles.question__title}>{ask}</h2>
-      {showAnswer && <p className={styles.answer}>{answer}</p>}
+      <div className={styles.question}>
+        <h2 className={styles.question__title}>{ask}</h2>
+        <span className={styles.icon} data-icon-close={showAnswer}></span>
+      </div>
 
-      <span className={styles.icon} data-icon-close={showAnswer}></span>
+      {showAnswer && <p className={styles.answer}>{answer}</p>}
     </div>
   );
 };
