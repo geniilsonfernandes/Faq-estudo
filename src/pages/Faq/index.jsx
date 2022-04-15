@@ -9,7 +9,6 @@ import data from "./data.json";
 const Faq = () => {
   const [idGroupActive, setIdGroupActive] = useState(0);
   const [GroupActive, setGroupActive] = useState([]);
-
   function ActiveIdGroupIs(id) {
     setIdGroupActive(id);
   }
@@ -24,7 +23,7 @@ const Faq = () => {
       <FaqMenu
         data={data}
         ActiveIdGroupIs={ActiveIdGroupIs}
-        active={idGroupActive}
+        idActive={idGroupActive}
       />
       <FaqAccordion data={GroupActive} />
     </Container>

@@ -22,3 +22,63 @@
     font-weight: 600;
     color: var(--color--primary);
 }
+
+/* dropmenu */
+
+.drop__menu {
+    position: relative;
+}
+.menu__active {
+    border: 1px solid #dedede;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color--primary);
+    cursor: pointer;
+    overflow: hidden;
+}
+.drop__modal {
+    position: absolute;
+
+    width: 100%;
+    border-radius: 12px;
+    top: 116%;
+    z-index: 999;
+    border: 1px solid #dedede;
+    animation: intoDown ease-in-out 200ms forwards;
+    list-style: none;
+    box-shadow: 0px 4px 35px rgb(225 225 225 / 92%);
+    overflow: hidden;
+}
+.drop__icon {
+    transition: all ease-in-out 200ms;
+    transform: rotate(180deg);
+}
+[data-modal-active="true"] {
+    transform: rotate(0);
+}
+.modal__item {
+    padding: 10px 16px;
+    background: #f3f3f3;
+    cursor: pointer;
+}
+.modal__item:hover {
+    background: #fafafa;
+}
+.modal__item:not(:last-child) {
+    border-bottom: 1px solid #dedede;
+}
+@keyframes intoDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -10px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0px, 0);
+    }
+}
