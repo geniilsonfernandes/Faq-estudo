@@ -1,7 +1,15 @@
+.s__faq {
+    padding: 48px 0;
+}
 .title {
     text-align: center;
     font-weight: 700;
     font-size: 40px;
-    color: var(--color--text--primary);
+    color: var(--color-text--900);
     padding: 40px 0 48px 0;
+}
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 32px;
+    }
 }

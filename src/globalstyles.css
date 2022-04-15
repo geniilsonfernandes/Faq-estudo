@@ -5,16 +5,18 @@
 }
 
 :root {
-    --color--primary: #64c882;
-    --color--text--primary: #130502;
-    --color--text--secundary: #869289;
+    --theme--color--900: #64c882;
+    --color-text--900: #373737;
+    --color-text--800: #969696;
+    --color-text--300: #8f8f8f;
 }
 
 body {
     font-family: "Poppins", sans-serif;
-    padding-top: 112px;
 }
-
+main {
+    min-height: calc(100vh - 84px);
+}
 /* animation */
 
 @keyframes intoDown {

@@ -10,17 +10,17 @@
 .menu__item {
     font-weight: 400;
     font-size: 20px;
-    color: var(--color--text--secundary);
+    color: var(--color-text--800);
     cursor: pointer;
 }
 .menu__item:hover {
-    color: var(--color--primary);
+    color: var(--theme--color--900);
 }
 /* active states */
 
 [data-focus="true"] {
     font-weight: 600;
-    color: var(--color--primary);
+    color: var(--theme--color--900);
 }
 
 /* dropmenu */
@@ -37,7 +37,7 @@
 
     font-size: 16px;
     font-weight: 600;
-    color: var(--color--primary);
+    color: var(--theme--color--900);
     cursor: pointer;
     overflow: hidden;
 }

@@ -19,13 +19,15 @@ const Faq = () => {
 
   return (
     <Container wrapper="main">
-      <h1 className={styles.title}>Frequently Asked Questions</h1>
-      <FaqMenu
-        data={data}
-        ActiveIdGroupIs={ActiveIdGroupIs}
-        idActive={idGroupActive}
-      />
-      <FaqAccordion data={GroupActive} />
+      <div className={styles.s__faq}>
+        <h1 className={styles.title}>Frequently Asked Questions</h1>
+        <FaqMenu
+          data={data}
+          ActiveIdGroupIs={ActiveIdGroupIs}
+          idActive={idGroupActive}
+        />
+        <FaqAccordion data={GroupActive} />
+      </div>
     </Container>
   );
 };
