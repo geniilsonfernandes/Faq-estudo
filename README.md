@@ -1,24 +1,13 @@
 # ComponentE de FAQ | PROJETO PARA ESTUDO
 
-![Preview-Screens](url)
-
+![Preview-Screens](ui-faq.png)
 
 ## Sobre o Projeto
 
+Projeto simples de um FAQ responsivo!
 
 ## Objetivo?
 
-
-
-## Libs Usadas
-
-
+Praticar o uso de componentes na aplicação
 
 ## Observações sobre esse projeto
-
-
-
-## UI
-
-Telas feitas por mim com figma
-
