@@ -12,6 +12,7 @@ const Question = ({ answer, ask }) => {
       setShowAnswer(false);
     };
   }, []);
+
   return (
     <div
       className={styles.wrapper}

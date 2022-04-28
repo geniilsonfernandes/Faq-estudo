@@ -4,7 +4,7 @@ import { ArrowIcon } from "../../../icons/Icon";
 import useMedia from "../../../hooks/useMedia";
 
 const FaqMenu = ({ data, idActive = 0, ActiveIdGroupIs }) => {
-  const isMobile = useMedia("(max-width: 768px)");
+  const{ match} = useMedia("(max-width: 768px)");
   const [groupNameActive, setGroupNameActive] = useState(
     data[idActive].subject || ""
   );
@@ -21,8 +21,8 @@ const FaqMenu = ({ data, idActive = 0, ActiveIdGroupIs }) => {
 
   return (
     <nav className={styles.menu}>
-      {isMobile ? (
-        <div className={styles.drop__menu}>
+      {match ? (
+        <div className={styles.drop__menu} data-testid="mobile">
           <span
             className={styles.menu__active}
             onClick={() => setShowModal((c) => !c)}
@@ -48,7 +48,7 @@ const FaqMenu = ({ data, idActive = 0, ActiveIdGroupIs }) => {
           )}
         </div>
       ) : (
-        <ul className={styles.menu__items}>
+        <ul className={styles.menu__items} data-testid="desktop">
           {data.map(({ subject, id }) => (
             <li
               className={styles.menu__item}
